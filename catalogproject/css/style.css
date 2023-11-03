@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;500;600&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  padding: 3px 3px 3px;
+}
+
+th,td {
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 500;
+  background: #EEE3C7;
+  color: #000;
+}
+th {
+  background: #7D7B77;
+  font-size: 18px;
+}
+
+td:nth-child(5) > a {
+  text-decoration: none;
+  color: #3f75c5;
+}
+td:nth-child(6) > a {
+  text-decoration: none;
+  color: red;
+}
+td a:hover {
+  text-decoration: underline;
+  transition: 0.5s ease;
+  opacity: 0.7;
+}
+
+.form_goods {
+  margin-bottom: 20px;
+  padding: 0;
+}
+label {
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+  cursor: pointer;
+}
+label:hover {
+  color: red;
+  transition: 0.3s ease;
+}
+input, textarea, button {
+  padding: 10px;
+  display: block;
+  min-height: 30px;
+  width: 250px;
+  margin-top: 20px;
+}
+textarea {
+  resize: vertical;
+  height: 80px;
+}
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
